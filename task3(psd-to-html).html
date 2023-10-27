@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+    .container{ 
+        background: url(images/Header\ Background.png);
+        background-size: 100% 100%;
+    } 
+    nav{display: flex;}
+    .logo {
+        width: 50%;   
+    } 
+   .logo i{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    margin: 5px 10px;
+    display: none;
+   }
+    .menu
+    {width: 40%;}
+    .search{
+        width: 10%;
+        padding-top:20px ;
+    }  
+   li{display: inline;
+    padding-inline: 18px;}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+span{
+    padding: 5px 50px;
+    border-radius: 32px;
+    background-color: white;
+}
+.text{display: flex; padding-left: 50px;}
+.logo1{
+    width: 50%;
+}
+.img{
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+h3{color: white; }
+.btn{
+    width: 20%;
+    text-align: center;
+    border-radius: 32px;
+    padding: 5px 10px;
+    background-color: white;
+}
+p{padding-bottom:15%;}
+#img2{
+    height: 400px;
+    width: 400px;
+}
+#img3{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top: 58%;
+    left: 0%;
+}
+#img4{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top: 55%;
+    right: 0%;
+}
+
+@media(max-width:1200px)
+{
+    li{padding-inline: 8px;}
+    .btn{width: 25%;}
+    span{padding: 5px 38px;}
+    #img2{height: 380px;width: 360px;}
+    #img3{height:200px;width:200px;top: 60%;left: 0%;}
+    #img4{ height: 350px;width: 350px;top: 58%;right: 0%;}
+}
+@media(max-width:992px)
+{
+    span{padding: 5px 30px;}
+    li{padding-inline: 3px;}
+    h1{font-size: 62px;}
+    .btn{width: 40%;}
+    a{font-size: 18px;}
+    #img2{height: 310px;width: 310px;}
+    #img3{height:180px;width:180px;top: 56%;}
+    #img4{height: 330px;width: 330px;top: 63%;right: 0%;}
+}
+@media(max-width:768px)
+{
+    .logo{width: 100%;}
+    .logo i{display: block; display: flex; justify-content: end;}
+    .menu{display: none;}
+    .search{display: none;} 
+    .btn{width: 45%;}
+    h1{font-size: 40px;}
+    #img2{height: 250px; width: 250px;}
+    #img3{height:150px;width:150px;top: 55%;}
+    #img4{height: 280px;width: 280px;top: 58%;right: 0%;}
+}
+@media(max-width:600px)
+{
+    .btn{width: 55%;}
+    h1{font-size: 40px;}
+    #img2{height: 220px;width: 220px;}
+    #img3{height:130px;width:130px;top:50%;}
+    #img4{height: 250px;width: 250px;top: 62%;right: 0%;}
+}
+@media(max-width:500px)
+{
+    #img2{height: 220px;width: 220px;}
+    #img3{height:130px;width:130px;top:48%;}
+    #img4{height: 250px;width: 250px;top: 62%;right: 0%;}
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+           <div class="logo">
+                <i class="fa fa-bars"></i>
+           </div> 
+           <div class="menu">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">OurStory</a></li>
+                <li><a href="#">Contactus</a></li>
+            </ul>
+        </div>
+            <div class="search">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+           </div>
+        </nav>
+        <div class="text">
+            <div class="logo1">
+                <img src="images/Place Your Logo Here (Double Click to Edit).png" alt="" height="60px" width="70px">
+                <h1>Italian Food</h1>
+                <h3>LOREMIPSUM DOLOR</h3>
+                <div class="btn">READ MORE</div>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem eaque eos modi laborum alias delectus doloremque repellendus veritatis neque? Officiis odit perferendis non eligendi, nesciunt nam quidem vero similique.</p>
+            </div>  
+
+            <div class="img">
+                <img src="images/image2.png" alt="" id="img2">
+                <img src="images/image3.png" alt=""  id="img3">
+                <img src="images/Place Your Image Here (Double Click to Edit).png" alt="" id="img4" >
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

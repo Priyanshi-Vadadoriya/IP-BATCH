@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .container-fluid {
+        background: url(https://img.freepik.com/free-photo/3d-dark-grunge-display-background-with-smoky-atmosphere_1048-16218.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698278400&semt=ais);
+        background-size: 100% 100%;
+    }
+    .get {
+        background-color: white;
+    }
+    b, h1, p, span, .p {
+        color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <nav class="p-3 p-lg-2">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <!-- Modified the column sizes here -->
+        <div class="col-6 col-md-6 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV8VCg7OUsGJKa9f_vaDyeBsQ8WTfuTKKCuQ&usqp=CAU" alt="" width="100px">
+        </div>
+        <div class="col-6 text-end">
+         
+         
+        <a class="d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <span class="fs-1">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+          
+          <div>
+            <ul class="list-group text-center">
+              <li class="list-group-item"> Home</li>
+              <li class="list-group-item"> About</li>
+              <li class="list-group-item"> Services</li>
+              <li class="list-group-item"> Contact us</li>
+              <li class="list-group-item"> Blog</li>
+              <li class="list-group-item"> News</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+        <div class="container-fluid d-none d-lg-block">
+          <div class="row d-flex justify-content-center align-items-center">
+            
+            <div class="col-9 d-flex justify-content-end ">
+              <div class="p d-none d-md-block mx-2">p:10(89)2733627</div>
+              <div class="get bg-warning py-1 px-2 d-none d-md-block">Get Quote</div>
+          </div>
+          <div class="col-3  text-md-start">
+              <i class="fa fa-bars fs-3 text-warning"></i>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+    <div class="row ">
+      <div class=" col-12 col-md-6 fs-5  ">
+          <p class="m-5 text-center">SALT LAKE CITY, UNITED STATES</p>
+          <h1 class="m-5 text-center">Homeownership <br>never lokked so<br> affordable</h1>
+      </div>
+      <div class=" col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+          <b class="px-3">Play Reel</b>
+          <span class="get text-warning rounded-circle py-3 px-4 text-center "><i class="fa-solid fa-play fs-5"></i></span>
+      </div>
+  </div>
+
+  <div class="row m-5 col-md-m-1">
+      <div class=" col-12 col-md-6  text-warning fs-3 text-center d-none d-md-block"><i class="fa-solid fa-computer-mouse"></i></div>
+      <div class=" col-12 col-md-6 bg-warning p-2 row ">
+          <div class="col-6">
+              Homeownership never lokked so <br> affordable
+          </div>
+          <div class="col-6">world-class architecture design <br> studio</div>
+      </div>
+  </div>
+</body>
+</html>
